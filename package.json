@@ -26,9 +26,9 @@
   "author": "Igor Fedoronchuk",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/OrceMaceski/active_admin_theme/issues"
+    "url": "https://github.com/activeadmin-plugins/active_admin_theme/issues"
   },
-  "homepage": "https://github.com/OrceMaceski/active_admin_theme#readme",
+  "homepage": "https://github.com/activeadmin-plugins/active_admin_theme#readme",
   "dependencies": {
     "active_admin_theme": "^1.1.2"
   }
