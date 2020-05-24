@@ -1,0 +1,35 @@
+{
+  "name": "active_admin_theme",
+  "version": "1.1.2",
+  "description": "SCSS Theme for Active Admin",
+  "main": "app/assets/stylesheet/wigu/active_admin_theme.scss",
+  "files": [
+    "app/assets/stylesheets/wigu/*.scss",
+    "src/**/*"
+  ],
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "prepublishOnly": "rm -rf src && cp -R app/assets/stylesheets/wigu/ src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OrceMaceski/active_admin_theme.git"
+  },
+  "keywords": [
+    "active",
+    "admin",
+    "theme"
+  ],
+  "author": "Igor Fedoronchuk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OrceMaceski/active_admin_theme/issues"
+  },
+  "homepage": "https://github.com/OrceMaceski/active_admin_theme#readme",
+  "dependencies": {
+    "active_admin_theme": "^1.1.2"
+  }
+}
