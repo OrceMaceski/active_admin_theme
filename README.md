@@ -37,6 +37,16 @@ $skinBorderWindowColor: #B8BABE!default;
 @import "wigu/active_admin_theme";
 ...
 ```
+## Webpacker / Rails 6
+
+Import it with yarn
+    $ yarn add active_admin_theme
+
+In your `javascript/stylesheets/active_admin.scss` add
+
+```scss
+  @import "~active_admin_theme/src/active_admin_theme";
+```
 
 ## Screen
 
