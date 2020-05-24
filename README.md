@@ -39,7 +39,8 @@ $skinBorderWindowColor: #B8BABE!default;
 ```
 ## Webpacker / Rails 6
 
-Import it with yarn
+Import it with yarn:
+
     $ yarn add active_admin_theme
 
 In your `javascript/stylesheets/active_admin.scss` add
